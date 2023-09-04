@@ -1,11 +1,18 @@
 <!-- Completed -->
-<!-- Not Completed -->
 
 https://leetcode.com/problems/two-sum
+https://leetcode.com/problems/valid-parentheses
+
+<!-- Not Completed -->
+
+https://leetcode.com/problems/reverse-linked-list
+https://leetcode.com/problems/valid-anagram
+https://leetcode.com/problems/move-zeroes
+https://leetcode.com/problems/summary-ranges
+
 https://leetcode.com/problems/add-two-numbers
 https://leetcode.com/problems/longest-substring-without-repeating-characters
 https://leetcode.com/problems/longest-palindromic-substring
-https://leetcode.com/problems/valid-parentheses
 https://leetcode.com/problems/remove-element
 https://leetcode.com/problems/search-in-rotated-sorted-array
 https://leetcode.com/problems/trapping-rain-water
@@ -27,13 +34,9 @@ https://leetcode.com/problems/one-edit-distance
 https://leetcode.com/problems/majority-element
 https://leetcode.com/problems/number-of-islands
 https://leetcode.com/problems/isomorphic-strings
-https://leetcode.com/problems/reverse-linked-list
-https://leetcode.com/problems/summary-ranges
 https://leetcode.com/problems/palindrome-linked-list
 https://leetcode.com/problems/product-of-array-except-self
 https://leetcode.com/problems/sliding-window-maximum
-https://leetcode.com/problems/valid-anagram
-https://leetcode.com/problems/move-zeroes
 https://leetcode.com/problems/longest-increasing-subsequence
 https://leetcode.com/problems/remove-invalid-parentheses
 https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters
