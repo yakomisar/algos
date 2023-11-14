@@ -6,16 +6,19 @@ func wordPattern(pattern string, s string) bool {
 	arr := []string{}
 	word := ""
 	for _, val := range s {
-		if val == 32 && len(word) == 0 {
+		if string(val) == " " && len(word) == 0 {
 			continue
-		} else if val == 32 {
+		} else if string(val) == " " {
 			arr = append(arr, word)
 			word = ""
-		} else if len(word) > 0 {
-			word += string(val)
+			continue
 		}
+		word += string(val)
 	}
-	if len(pattern) != len(s) {
+	if len(word) != 0 {
+		arr = append(arr, word)
+	}
+	if len(pattern) != len(arr) {
 		return false
 	}
 	check := make(map[rune]string)
@@ -24,6 +27,18 @@ func wordPattern(pattern string, s string) bool {
 			if w != arr[key] {
 				return false
 			}
+		} else {
+			check[val] = arr[key]
+		}
+	}
+	check2 := make(map[string]rune)
+	for key, val := range pattern {
+		if w, ok := check2[arr[key]]; ok {
+			if w != val {
+				return false
+			}
+		} else {
+			check2[arr[key]] = val
 		}
 	}
 	return true
